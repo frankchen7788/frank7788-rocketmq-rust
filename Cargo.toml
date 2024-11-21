@@ -9,9 +9,9 @@ members = [
     "rocketmq-filter",
     "rocketmq-macros",
     "rocketmq-namesrv",
-    "rocketmq-remoting",
+    "rocketmq-remoting", "rocketmq-rqadmin",
     "rocketmq-runtime",
-    "rocketmq-store"]
+    "rocketmq-store", "rocketmq-tools"]
 resolver = "2"
 
 [workspace.package]
@@ -39,7 +39,7 @@ rocketmq-cli = { version = "0.3.0", path = "./rocketmq-cli" }
 rocketmq-namesrv = { version = "0.3.0", path = "./rocketmq-namesrv" }
 rocketmq-broker = { version = "0.3.0", path = "./rocketmq-broker" }
 rocketmq-client = { version = "0.3.0", path = "./rocketmq-client" }
-
+rocketmq-tools = { version = "0.3.0", path = "./rocketmq-tools" }
 tokio = { version = "1.41", features = ["full"] }
 tokio-util = { version = "0.7.12", features = ["full"] }
 tokio-stream = { version = "0.1.16", features = ["full"] }

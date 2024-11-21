@@ -2056,6 +2056,35 @@ dependencies = [
 ]
 
 [[package]]
+name = "rocketmq-rqadmin"
+version = "0.3.0"
+dependencies = [
+ "anyhow",
+ "bytes",
+ "clap",
+ "config",
+ "env_logger",
+ "futures",
+ "futures-core",
+ "futures-io",
+ "futures-sink",
+ "futures-util",
+ "log",
+ "parking_lot",
+ "rocketmq-common",
+ "rocketmq-remoting",
+ "rocketmq-runtime",
+ "rocketmq-rust",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tokio-stream",
+ "tokio-util",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "rocketmq-runtime"
 version = "0.3.0"
 dependencies = [
@@ -2107,6 +2136,35 @@ dependencies = [
  "tracing",
  "tracing-subscriber",
  "trait-variant",
+]
+
+[[package]]
+name = "rocketmq-tools"
+version = "0.3.0"
+dependencies = [
+ "anyhow",
+ "bytes",
+ "clap",
+ "config",
+ "env_logger",
+ "futures",
+ "futures-core",
+ "futures-io",
+ "futures-sink",
+ "futures-util",
+ "log",
+ "parking_lot",
+ "rocketmq-common",
+ "rocketmq-remoting",
+ "rocketmq-runtime",
+ "rocketmq-rust",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tokio-stream",
+ "tokio-util",
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]
